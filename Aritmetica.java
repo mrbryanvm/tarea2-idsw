@@ -22,4 +22,14 @@ public class Aritmetica {
         }
         return res;
     }
+
+    public String numBinario(int num ){
+        String res = "";
+        if(num <= 1){
+            res = res +num;
+        }else{
+            res = res + numBinario(num/2) +(num % 2);
+        }
+        return res;
+    }
 }
