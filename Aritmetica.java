@@ -8,4 +8,8 @@ public class Aritmetica{
             return 0;
         }
     }
+
+    public static double potencia(double base, int exponente){
+        return Math.pow(base, exponente);
+    }
 }
