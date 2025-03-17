@@ -4,6 +4,9 @@ public class Modulo {
 
     }
 
-    
+    public int modulo(int de, int entre){
+        
+        return de % entre;
+    }
     
 }
