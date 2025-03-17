@@ -7,5 +7,18 @@ public class Aritmetica{
             System.out.println("Error");
             return 0;
         }
-    }
+    }  
+    public boolean esPrimo(int numero){
+        boolean res = false;
+        int divisores = 0;
+        for(int i = 1; i <= numero; i++){
+            if((numero % i) == 0){
+                divisores++;
+            }
+        }
+        if(divisores == 2){
+            res = true;
+        }
+        return res;
+    }    
 }
