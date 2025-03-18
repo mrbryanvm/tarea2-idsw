@@ -16,6 +16,7 @@ public class Aritmetica {
 
     public static double potencia(double base, int exponente){
         return Math.pow(base, exponente);
+    }
 
     public int modulo(int de, int entre) {
         if (entre == 0) {
@@ -31,5 +32,10 @@ public class Aritmetica {
             System.out.println("Error: No se puede calcular la raíz cuadrada de un número negativo.");
             return -1; 
         }
+    }
+
+    public double resta(double num1, double num2){
+        double res = num1 - num2;
+        return res;
     }
 }
