@@ -58,4 +58,10 @@ public class Aritmetica{
         }
         return res;
     }
+
+    public double promedio(int a, int b){
+        int suma = a+b;
+        double prom = suma/2;
+        return prom;
+    }
 }
