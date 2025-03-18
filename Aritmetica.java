@@ -8,4 +8,28 @@ public class Aritmetica{
             return 0;
         }
     }
+
+    public int binarioDecimal(String bin){
+        int res = 0;
+        for(int i = 0;i< bin.length();i++){
+            int bit;
+            if (bin.charAt(i)=='1') {
+                bit = 1;
+            }else{
+                bit = 0;
+            }
+            res =  res * 2 + bit;
+        }
+        return res;
+    }
+
+    public String numBinario(int num ){
+        String res = "";
+        if(num <= 1){
+            res = res +num;
+        }else{
+            res = res + numBinario(num/2) +(num % 2);
+        }
+        return res;
+    }
 }
