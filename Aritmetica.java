@@ -1,8 +1,4 @@
-public class Aritmetica {
-
-    public Aritmetica(){
-        
-    }
+public class Aritmetica{
 
     public double division(double a, double b) {
         if (b != 0) {
@@ -24,8 +20,8 @@ public class Aritmetica {
         }
         return de % entre;
     }
-	
-	public double raizCuadrada(double a) {
+
+    public double raizCuadrada(double a) {
         if (a >= 0) {
             return Math.sqrt(a);
         } else {
@@ -36,6 +32,30 @@ public class Aritmetica {
 
     public double resta(double num1, double num2){
         double res = num1 - num2;
+        return res;
+    }
+    
+    public int binarioDecimal(String bin){
+        int res = 0;
+        for(int i = 0;i< bin.length();i++){
+            int bit;
+            if (bin.charAt(i)=='1') {
+                bit = 1;
+            }else{
+                bit = 0;
+            }
+            res =  res * 2 + bit;
+        }
+        return res;
+    }
+
+    public String numBinario(int num ){
+        String res = "";
+        if(num <= 1){
+            res = res +num;
+        }else{
+            res = res + numBinario(num/2) +(num % 2);
+        }
         return res;
     }
 }
