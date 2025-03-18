@@ -9,6 +9,27 @@ public class Aritmetica {
         }
     }
 
+
+    public static double potencia(double base, int exponente){
+        return Math.pow(base, exponente);
+    }
+
+    public int modulo(int de, int entre) {
+        if (entre == 0) {
+            throw new ArithmeticException("No se puede dividir por cero.");
+        }
+        return de % entre;
+    }
+
+    public double raizCuadrada(double a) {
+        if (a >= 0) {
+            return Math.sqrt(a);
+        } else {
+            System.out.println("Error: No se puede calcular la raíz cuadrada de un número negativo.");
+            return -1; 
+        }
+    }
+
     public int binarioDecimal(String bin){
         int res = 0;
         for(int i = 0;i< bin.length();i++){
