@@ -13,6 +13,10 @@ public class Aritmetica {
         }
     }
 
+
+    public static double potencia(double base, int exponente){
+        return Math.pow(base, exponente);
+
     public int modulo(int de, int entre) {
         if (entre == 0) {
             throw new ArithmeticException("No se puede dividir por cero.");
