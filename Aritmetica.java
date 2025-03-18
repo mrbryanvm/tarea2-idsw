@@ -24,7 +24,7 @@ public class Aritmetica {
         return de % entre;
     }
 	
-	public double calcular(double a) {
+	public double raizCuadrada(double a) {
         if (a >= 0) {
             return Math.sqrt(a);
         } else {
