@@ -64,4 +64,12 @@ public class Aritmetica{
         double prom = suma/2;
         return prom;
     }
+    
+    public int factorial(int num){
+        int res = 1;
+        for(int i=1;i<=num;i++){
+            res = res * i;
+        }
+        return res;
+    }
 }
