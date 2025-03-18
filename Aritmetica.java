@@ -1,5 +1,9 @@
 public class Aritmetica{
 
+    public double multiplicar(double a, double b) {
+        return a * b;
+    }    
+
     public double division(double a, double b) {
         if (b != 0) {
             return a / b;
@@ -8,7 +12,6 @@ public class Aritmetica{
             return 0;
         }
     }
-
 
     public static double potencia(double base, int exponente){
         return Math.pow(base, exponente);
