@@ -19,4 +19,13 @@ public class Aritmetica {
         }
         return de % entre;
     }
+	
+	public double calcular(double a) {
+        if (a >= 0) {
+            return Math.sqrt(a);
+        } else {
+            System.out.println("Error: No se puede calcular la raíz cuadrada de un número negativo.");
+            return -1; 
+        }
+    }
 }
