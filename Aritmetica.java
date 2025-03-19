@@ -29,7 +29,8 @@ public class Aritmetica {
         }
         return de % entre;
     }
-
+	
+    //Carlos Aurelio La Fuente Canaviri
     public double raizCuadrada(double a) {
         if (a >= 0) {
             return Math.sqrt(a);
@@ -131,6 +132,8 @@ public class Aritmetica {
                     int mod2 = sc.nextInt();
                     System.out.println("Resultado: " + arit.modulo(mod1, mod2));
                     break;
+					
+				//Carlos Aurelio La Fuente Canaviri	
                 case 6:
                     System.out.print("Ingrese un número: ");
                     double raiz = sc.nextDouble();
