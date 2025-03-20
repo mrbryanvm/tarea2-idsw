@@ -74,6 +74,20 @@ public class Aritmetica {
         }
         return res;
     }
+    //Luciana Cosio Marañon
+    public boolean esPrimo(int numero){
+        boolean res = false;
+        int divisores = 0;
+        for(int i = 1; i <= numero; i++){
+            if((numero % i) == 0){
+                divisores++;
+            }
+        }
+        if(divisores == 2){
+            res = true;
+        }
+        return res;
+    }
 
     public static void main(String[] args) {
         Aritmetica arit = new Aritmetica();
@@ -89,7 +103,7 @@ public class Aritmetica {
             System.out.println("6. Raíz Cuadrada");
             System.out.println("7. Potencia");
             System.out.println("8. Binario a Decimal");
-            System.out.println("9. Decimal a Binario");
+            System.out.println("9. Es Primo");
             System.out.println("10. Promedio");
             System.out.println("11. Factorial");
             System.out.println("0. Salir");
@@ -158,9 +172,9 @@ public class Aritmetica {
                     System.out.println("Decimal: " + arit.binarioDecimal(bin));
                     break;
                 case 9:
-                    System.out.print("Ingrese un número entero: ");
+                    System.out.print("Ingrese un número: ");
                     int num = sc.nextInt();
-                    System.out.println("Binario: " + arit.numBinario(num));
+                    System.out.println("Es Primo: " + arit.esPrimo(num));
                     break;
                 case 10:
                     System.out.print("Ingrese el primer número: ");
