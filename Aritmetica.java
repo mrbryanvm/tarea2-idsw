@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Aritmetica
 {
+    //Vasquez Maldonado Bryan
     public static double sumar(double a, double b)
     {
         return a + b;
@@ -96,6 +97,7 @@ public class Aritmetica
             opcion = sc.nextInt();
 
             switch (opcion) {
+                //Vasquez Maldonado Bryan
                 case 1:
                 System.out.print("Ingrese el primer número: ");
                 double s1 = sc.nextDouble();
