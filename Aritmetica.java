@@ -62,7 +62,7 @@ public class Aritmetica {
             return numBinario(num / 2) + (num % 2);
         }
     }
-    
+    // Leticia Brenda Loredo Salazar
     public double promedio(int a, int b) {
         return (a + b) / 2.0;
     }
