@@ -112,6 +112,7 @@ public class Aritmetica {
                     double r2 = sc.nextDouble();
                     System.out.println("Resultado: " + arit.resta(r1, r2));
                     break;
+                //Hidalgo Cespedes Diana Kelly   
                 case 3:
                     System.out.print("Ingrese el primer número: ");
                     double m1 = sc.nextDouble();
