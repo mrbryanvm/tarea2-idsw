@@ -4,7 +4,8 @@ public class Aritmetica {
     public static double sumar(double a, double b) {
         return a + b;
     }
-
+    
+    //Hidalgo Cespedes Diana Kelly
     public double multiplicar(double a, double b) {
         return a * b;
     }
