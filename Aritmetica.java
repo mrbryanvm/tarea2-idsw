@@ -66,7 +66,7 @@ public class Aritmetica {
     public double promedio(int a, int b) {
         return (a + b) / 2.0;
     }
-    // Brisa Valeria Gil Rivera
+
     public int factorial(int num) {
         int res = 1;
         for (int i = 1; i <= num; i++) {
@@ -119,12 +119,13 @@ public class Aritmetica {
                     double s2 = sc.nextDouble();
                     System.out.println("Resultado: " + sumar(s1, s2));
                     break;
+                //Rodrigo Paniagua Camacho
                 case 2:
-                    System.out.print("Ingrese el primer número: ");
+                    System.out.print("Ingresa el primer número: ");
                     double r1 = sc.nextDouble();
-                    System.out.print("Ingrese el segundo número: ");
+                    System.out.print("Ingresa el segundo número: ");
                     double r2 = sc.nextDouble();
-                    System.out.println("Resultado: " + arit.resta(r1, r2));
+                    System.out.println("El resultado es: " + arit.resta(r1, r2));
                     break;
                 //Hidalgo Cespedes Diana Kelly   
                 case 3:
@@ -171,6 +172,7 @@ public class Aritmetica {
                     String bin = sc.nextLine();
                     System.out.println("Decimal: " + arit.binarioDecimal(bin));
                     break;
+                    //luciana Marañon Cosio
                 case 9:
                     System.out.print("Ingrese un número: ");
                     int num = sc.nextInt();
