@@ -19,7 +19,7 @@ public class Aritmetica {
             return 0;
         }
     }
-
+//Fernandez Lazcano Oscar
     public static double potencia(double base, int exponente) {
         return Math.pow(base, exponente);
     }
@@ -45,7 +45,7 @@ public class Aritmetica {
     public double resta(double num1, double num2) {
         return num1 - num2;
     }
-
+    //Fuentes CEjas Jhonatan
     public int binarioDecimal(String bin) {
         int res = 0;
         for (int i = 0; i < bin.length(); i++) {
@@ -54,7 +54,8 @@ public class Aritmetica {
         }
         return res;
     }
-
+    //Fuentes CEjas Jhonatan1
+    
     public String numBinario(int num) {
         if (num <= 1) {
             return Integer.toString(num);
@@ -66,7 +67,7 @@ public class Aritmetica {
     public double promedio(int a, int b) {
         return (a + b) / 2.0;
     }
-
+    //Gil Rivera Brisa Valeria
     public int factorial(int num) {
         int res = 1;
         for (int i = 1; i <= num; i++) {
@@ -159,6 +160,7 @@ public class Aritmetica {
                     double raiz = sc.nextDouble();
                     System.out.println("Resultado: " + arit.raizCuadrada(raiz));
                     break;
+                    //Fernandez Lazcano Oscar
                 case 7:
                     System.out.print("Ingrese la base: ");
                     double base = sc.nextDouble();
@@ -166,6 +168,7 @@ public class Aritmetica {
                     int exp = sc.nextInt();
                     System.out.println("Resultado: " + potencia(base, exp));
                     break;
+                    //Fuentes CEjas Jhonatan
                 case 8:
                     System.out.print("Ingrese un número binario: ");
                     sc.nextLine(); // Limpiar buffer
@@ -178,6 +181,8 @@ public class Aritmetica {
                     int num = sc.nextInt();
                     System.out.println("Es Primo: " + arit.esPrimo(num));
                     break;
+                        // Leticia Brenda Loredo Salazar
+
                 case 10:
                     System.out.print("Ingrese el primer número: ");
                     int p1 = sc.nextInt();
@@ -185,6 +190,7 @@ public class Aritmetica {
                     int p2 = sc.nextInt();
                     System.out.println("Promedio: " + arit.promedio(p1, p2));
                     break;
+                    //Gil Rivera Brisa Valeria
                 case 11:
                     System.out.print("Ingrese un número: ");
                     int fac = sc.nextInt();
