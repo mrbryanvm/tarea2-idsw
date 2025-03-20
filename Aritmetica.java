@@ -10,7 +10,7 @@ public class Aritmetica {
         return a * b;
     }
 
-// Vicente Guzman Aliza Abigail
+    // Vicente Guzman Aliza Abigail
     public double division(double a, double b) {
         if (b != 0) {
             return a / b;
@@ -135,7 +135,7 @@ public class Aritmetica {
                     double m2 = sc.nextDouble();
                     System.out.println("Resultado: " + arit.multiplicar(m1, m2));
                     break;
-	       // Vicente Guzman Aliza Abigail
+	            // Vicente Guzman Aliza Abigail
                 case 4:
                     System.out.print("Ingrese el dividendo: ");
                     double d1 = sc.nextDouble();
@@ -172,7 +172,7 @@ public class Aritmetica {
                     String bin = sc.nextLine();
                     System.out.println("Decimal: " + arit.binarioDecimal(bin));
                     break;
-                    //luciana Marañon Cosio
+                //Luciana Marañon Cosio
                 case 9:
                     System.out.print("Ingrese un número: ");
                     int num = sc.nextInt();
