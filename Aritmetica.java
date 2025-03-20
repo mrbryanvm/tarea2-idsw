@@ -54,7 +54,6 @@ public class Aritmetica {
         }
         return res;
     }
-    //Fuentes CEjas Jhonatan1
     
     public String numBinario(int num) {
         if (num <= 1) {
