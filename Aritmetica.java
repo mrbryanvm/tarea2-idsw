@@ -9,6 +9,7 @@ public class Aritmetica {
         return a * b;
     }
 
+// Vicente Guzman Aliza Abigail
     public double division(double a, double b) {
         if (b != 0) {
             return a / b;
@@ -116,6 +117,7 @@ public class Aritmetica {
                     double m2 = sc.nextDouble();
                     System.out.println("Resultado: " + arit.multiplicar(m1, m2));
                     break;
+	       // Vicente Guzman Aliza Abigail
                 case 4:
                     System.out.print("Ingrese el dividendo: ");
                     double d1 = sc.nextDouble();
