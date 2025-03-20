@@ -40,7 +40,7 @@ public class Aritmetica {
             return -1;
         }
     }
-
+    //Rodrigo Paniagua Camacho
     public double resta(double num1, double num2) {
         return num1 - num2;
     }
@@ -61,7 +61,7 @@ public class Aritmetica {
             return numBinario(num / 2) + (num % 2);
         }
     }
-
+    
     public double promedio(int a, int b) {
         return (a + b) / 2.0;
     }
