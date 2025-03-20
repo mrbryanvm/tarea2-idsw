@@ -66,7 +66,7 @@ public class Aritmetica {
     public double promedio(int a, int b) {
         return (a + b) / 2.0;
     }
-
+    // Brisa Valeria Gil Rivera
     public int factorial(int num) {
         int res = 1;
         for (int i = 1; i <= num; i++) {
